@@ -1,7 +1,12 @@
+import { Button } from "../../communs/Button";
+import * as S from './styles'
+
 export const Header = () => {
   return (
-    <header>
-      <h1>header</h1>
-    </header>
+    <S.Header>
+      <Button buttonType="default">Default</Button>
+      <Button buttonType="black">Black</Button>
+      <Button buttonType="outline">Outline</Button>
+    </S.Header>
   );
 };
