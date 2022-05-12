@@ -4,9 +4,9 @@ import * as S from './styles'
 export const Header = () => {
   return (
     <S.Header>
-      <Button buttonType="default">Default</Button>
-      <Button buttonType="black">Black</Button>
-      <Button buttonType="outline">Outline</Button>
+      <Button variant="default">Default</Button>
+      <Button variant="black">Black</Button>
+      <Button variant="outline">Outline</Button>
     </S.Header>
   );
 };

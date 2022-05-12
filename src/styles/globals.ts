@@ -1,7 +1,7 @@
 import { createGlobalStyle, css } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
-  * {
+  body {
     ${({ theme }) => css`
       margin: 0;
       padding: 0;
