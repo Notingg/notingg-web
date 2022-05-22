@@ -7,7 +7,7 @@ export const Layout = ({ children }: { children: React.ReactElement }) => {
     <S.Container>
       <Header />
       <main>{children}</main>
-      <h1>Footer</h1>
+
     </S.Container>
   );
 };
