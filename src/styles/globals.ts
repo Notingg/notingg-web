@@ -6,7 +6,7 @@ export const GlobalStyles = createGlobalStyle`
       margin: 0;
       padding: 0;
       background-color: ${theme.colors.backgroundPrimary};
-      color: ${theme.colors.secondaryColor};
+      color: ${theme.colors.neutralColor};
       font-family: ${theme.fontFamily};
     `}
   }

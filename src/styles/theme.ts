@@ -6,7 +6,7 @@ export const theme = {
       backgroundSecondary800: "#1B1B1B",
       primaryColor500: "#5992FF",
       primaryColor800: "#4D7FDD",
-      secondaryColor: "#FFFFFF",
+      neutralColor: "#FFFFFF",
       tertiaryColor: "#EC5F4D",
     },
     fontFamily: "Roboto, sans-serif",
