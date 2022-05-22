@@ -7,11 +7,11 @@ type buttonType = {
 export const ButtonComponent = styled.button<buttonType>`
   ${({ theme, variant }) => css`
     background-color: ${(variant === "default" &&
-      theme.colors.primaryColor500) ||
+      theme.colors.blue500) ||
     (variant === "black" && theme.colors.backgroundSecondary500) ||
     (variant === "outline" && theme.colors.backgroundPrimary)};
 
-    color: ${theme.colors.neutralColor};
+    color: ${theme.colors.white};
     border-radius: 10px;
     padding: ${variant === "outline" ? "7px 16px" : "8px 20px"};
     font-size: 18px;
@@ -20,11 +20,7 @@ export const ButtonComponent = styled.button<buttonType>`
     border: ${variant === "outline" ? "2px solid #fff" : "none"};
     transition: 0.2s all;
     &:hover {
-      background-color: ${(variant === "default" &&
-        theme.colors.primaryColor800) ||
-      (variant === "black" && theme.colors.primaryColor500) ||
-      (variant === "outline" && theme.colors.backgroundPrimary)};
-    }
+    opacity:0.8;
     &:active {
       transform: scale(0.98);
     }

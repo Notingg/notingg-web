@@ -6,10 +6,11 @@ declare module "styled-components" {
       backgroundPrimary: string;
       backgroundSecondary500: string;
       backgroundSecondary800: string;
-      primaryColor500: string;
-      primaryColor800: string;
-      neutralColor: string;
-      tertiaryColor: string;
+      blue500: string;
+      blue800: string;
+      white: string;
+      red: string;
+      silver: string;
     };
     fontFamily: string;
   }
