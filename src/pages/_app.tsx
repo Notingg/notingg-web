@@ -6,6 +6,8 @@ import { GlobalStyles } from "../styles/globals";
 import { theme } from "../styles/theme";
 import Head from "next/head";
 
+import "reflect-metadata";
+
 function MyApp({ Component, pageProps }: any) {
   return (
     <>
