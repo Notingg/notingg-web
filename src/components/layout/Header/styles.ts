@@ -5,6 +5,6 @@ export const Header = styled.header`
     padding: 10px;
     display: flex;
     gap: 10px;
-    border: 1px solid ${theme.colors.primaryColor500};
+    border: 1px solid ${theme.colors.blue500};
   `}
 `;
