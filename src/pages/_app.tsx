@@ -10,15 +10,16 @@ import 'reflect-metadata';
 
 // eslint-disable-next-line
 export default function MyApp({ Component, pageProps }: any) {
-    return (
-      <>
-        <Head>
-          <title>Notingg - Ganhe dinheiro com suas postagens</title>
-        </Head>
-        <ThemeProvider theme={theme.darkTheme}>
-          <GlobalStyles />
-          <Component {...pageProps} />
-        </ThemeProvider>
-      </>
-    );
+  return (
+    <>
+      <Head>
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <title>Notingg - Ganhe dinheiro com suas postagens</title>
+      </Head>
+      <ThemeProvider theme={theme.darkTheme}>
+        <GlobalStyles />
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </>
+  );
 }
