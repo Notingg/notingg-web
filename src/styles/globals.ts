@@ -1,4 +1,4 @@
-import { createGlobalStyle, css } from "styled-components";
+import { createGlobalStyle, css } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
   body {
@@ -6,7 +6,7 @@ export const GlobalStyles = createGlobalStyle`
       margin: 0;
       padding: 0;
       background-color: ${theme.colors.backgroundPrimary};
-      color: ${theme.colors.neutralColor};
+      color: ${theme.colors.white};
       font-family: ${theme.fontFamily};
     `}
   }

@@ -1,23 +1,24 @@
-import { ThemeProvider } from "styled-components";
+import { ThemeProvider } from 'styled-components';
 
-import "bootstrap/dist/css/bootstrap.css";
+import 'bootstrap/dist/css/bootstrap.css';
 
-import { GlobalStyles } from "../styles/globals";
-import { theme } from "../styles/theme";
-import Head from "next/head";
+import { GlobalStyles } from '../styles/globals';
+import { theme } from '../styles/theme';
+import Head from 'next/head';
 
-function MyApp({ Component, pageProps }: any) {
-  return (
-    <>
-      <Head>
-        <title>Notingg - Ganhe dinheiro com suas postagens</title>
-      </Head>
-      <ThemeProvider theme={theme.darkTheme}>
-        <GlobalStyles />
-        <Component {...pageProps} />
-      </ThemeProvider>
-    </>
-  );
+import 'reflect-metadata';
+
+// eslint-disable-next-line
+export default function MyApp({ Component, pageProps }: any) {
+    return (
+      <>
+        <Head>
+          <title>Notingg - Ganhe dinheiro com suas postagens</title>
+        </Head>
+        <ThemeProvider theme={theme.darkTheme}>
+          <GlobalStyles />
+          <Component {...pageProps} />
+        </ThemeProvider>
+      </>
+    );
 }
-
-export default MyApp;

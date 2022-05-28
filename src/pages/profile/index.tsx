@@ -1,6 +1,6 @@
-import { Col, Container, Row } from "react-bootstrap";
-import { Layout } from "../../components/layout";
-import * as S from "./styles";
+import { Col, Container, Row } from 'react-bootstrap';
+import { Layout } from '../../components/layout';
+import * as S from './styles';
 
 export default function Profile() {
   return (
