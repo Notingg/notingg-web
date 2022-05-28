@@ -22,7 +22,7 @@ export default function Home() {
       <Container fluid>
         <Row>
           <Col lg={12}>
-            <S.Title>Home</S.Title>
+            <S.Title>Home - Teste  de fluxo novas features</S.Title>
           </Col>
         </Row>
 
