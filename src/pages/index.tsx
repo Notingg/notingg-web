@@ -2,7 +2,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { Form } from '@unform/web';
 import React from 'react';
 import { Layout } from '../components/layout';
-import * as S from './styles';
+import * as S from '../styles/pages/styles';
 import { Input } from '../components/communs/Input';
 import { SearchInput } from '../components/communs/SearchInput';
 
