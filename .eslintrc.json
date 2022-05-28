@@ -1,6 +1,8 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
-    "quotes": [2, "single", { "avoidEscape": true }]
+    "quotes": [2, "single", { "avoidEscape": true }],
+    "max-lines":  [2, { "max": 300, "skipBlankLines": true, "skipComments": true }],
+    "max-len": [2, { "code": 120, "tabWidth": 2, "ignoreUrls": true, "ignoreComments": true, "ignoreRegExpLiterals": true, "ignoreStrings": true, "ignoreTemplateLiterals": true }]
   }
 }
