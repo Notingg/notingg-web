@@ -1,12 +1,12 @@
-import { ThemeProvider } from "styled-components";
+import { ThemeProvider } from 'styled-components';
 
-import "bootstrap/dist/css/bootstrap.css";
+import 'bootstrap/dist/css/bootstrap.css';
 
-import { GlobalStyles } from "../styles/globals";
-import { theme } from "../styles/theme";
-import Head from "next/head";
+import { GlobalStyles } from '../styles/globals';
+import { theme } from '../styles/theme';
+import Head from 'next/head';
 
-import "reflect-metadata";
+import 'reflect-metadata';
 
 function MyApp({ Component, pageProps }: any) {
   return (

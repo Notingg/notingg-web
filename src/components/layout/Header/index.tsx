@@ -1,4 +1,4 @@
-import { Button } from "../../communs/Button";
+import { Button } from '../../communs/Button';
 import * as S from './styles'
 
 export const Header = () => {
