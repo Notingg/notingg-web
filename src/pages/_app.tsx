@@ -8,18 +8,17 @@ import Head from 'next/head';
 
 import 'reflect-metadata';
 
-function MyApp({ Component, pageProps }: any) {
-  return (
-    <>
-      <Head>
-        <title>Notingg - Ganhe dinheiro com suas postagens</title>
-      </Head>
-      <ThemeProvider theme={theme.darkTheme}>
-        <GlobalStyles />
-        <Component {...pageProps} />
-      </ThemeProvider>
-    </>
-  );
+// eslint-disable-next-line
+export default function MyApp({ Component, pageProps }: any) {
+    return (
+      <>
+        <Head>
+          <title>Notingg - Ganhe dinheiro com suas postagens</title>
+        </Head>
+        <ThemeProvider theme={theme.darkTheme}>
+          <GlobalStyles />
+          <Component {...pageProps} />
+        </ThemeProvider>
+      </>
+    );
 }
-
-export default MyApp;

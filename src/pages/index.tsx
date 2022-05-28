@@ -6,12 +6,17 @@ import * as S from './styles';
 import { Input } from '../components/communs/Input';
 import { SearchInput } from '../components/communs/SearchInput';
 
+type Data = {
+  search: string;
+};
+
 export default function Home() {
   const formRef = React.useRef(null);
 
-  const handleSubmit = (data: any) => {
+  const handleSubmit = (data: Data) => {
     console.log(data);
   };
+
   return (
     <Layout>
       <Container fluid>

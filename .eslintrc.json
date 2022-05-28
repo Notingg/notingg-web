@@ -1,5 +1,13 @@
 {
-  "extends": "next/core-web-vitals",
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
   "rules": {
     "quotes": [2, "single", { "avoidEscape": true }],
     "max-lines":  [2, { "max": 300, "skipBlankLines": true, "skipComments": true }],
