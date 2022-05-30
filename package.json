@@ -4,7 +4,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "dev:docker": "docker-compose up -d"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.26.0",
