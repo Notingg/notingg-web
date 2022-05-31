@@ -2,13 +2,13 @@ import React from 'react'
 import * as S from './styles'
 
 type ButtonProps = {
-  buttonType: "default" | "outline" | 'black';
+  variant: 'default' | 'outline' | 'black';
 }
 
-export const Button: React.FC<ButtonProps> = ({ buttonType = 'default', children }) => {
+export const Button: React.FC<ButtonProps> = ({ variant = 'default', children }) => {
   return (
     <>
-      <S.ButtonComponent buttonType={buttonType}>
+      <S.ButtonComponent variant={variant}>
         {children}
       </S.ButtonComponent>
     </>
