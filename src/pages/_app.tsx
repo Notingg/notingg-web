@@ -8,7 +8,6 @@ import Head from 'next/head';
 
 import 'reflect-metadata';
 
-// eslint-disable-next-line
 export default function MyApp({ Component, pageProps }: any) {
   return (
     <>

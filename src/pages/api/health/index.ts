@@ -5,5 +5,4 @@ const healthController = new HealthController();
 
 export default nextConnect({
   attachParams: true,
-})
-  .get(healthController.getHandler);
+}).get(healthController.getHandler);

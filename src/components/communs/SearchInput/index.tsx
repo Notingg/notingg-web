@@ -7,7 +7,6 @@ type SearchInputProps = {
   label?: string;
   placeholder?: string;
   name: string;
-  // eslint-disable-next-line
   onSubmit: (data: any) => void;
   iconPosition: 'right' | 'left';
 } & InputHTMLAttributes<HTMLInputElement>;
@@ -40,7 +39,6 @@ export const SearchInput: React.FC<SearchInputProps> = ({
   }, [fieldName, registerField]);
 
   const onClickSubmit = React.useCallback(
-    // eslint-disable-next-line
     (data: any) => {
       if (onSubmit) {
         onSubmit(data);
