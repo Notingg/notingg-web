@@ -1,7 +1,5 @@
-import { injectable } from 'tsyringe';
 import { dbConnect } from '../../../database/dbConnect';
 
-@injectable()
 export class GetServicesHealth {
   public async execute() {
     const apiStatus = 'UP';
